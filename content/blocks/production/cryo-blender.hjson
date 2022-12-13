@@ -12,7 +12,7 @@ liquidCapacity: 60
 consumes: {
   power: 2
   items: [
-    titanium/3
+    titanium/2
     ]
   liquids: [
     water/0.5
