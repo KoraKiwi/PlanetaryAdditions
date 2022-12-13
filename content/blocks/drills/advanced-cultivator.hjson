@@ -1,0 +1,47 @@
+type: AttributeCrafter
+health: 340
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 100
+itemCapacity: 20
+consumes: {
+  power: 2.5
+  liquids: [
+    water/0.7
+    ]
+}
+requirements: [
+  copper/50
+  lead/50
+  silicon/45
+  thorium/30
+]
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: water
+  }
+  {
+  type: DrawDefault
+  }
+  {
+  type: DrawCultivator
+  }
+  {
+  type: DrawRegion
+  suffix: -top
+  }
+ ]
+}
+attribute: spores
+maxBoost: 2
+category: production
+research: cultivator
+outputItem: spore-pod/3

@@ -1,0 +1,46 @@
+type: GenericCrafter
+health: 450
+size: 3
+hasLiquids: true
+consumes: {
+  power: 2.5
+  liquids: [
+    water/0.2
+  ]
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidRegion
+  suffix: -liquid
+  drawLiquid: water
+  }
+  {
+  type: DrawRegion
+  suffix: -2
+  }
+  {
+  type: DrawRegion
+  suffix: -rotator
+  rotateSpeed: 4.5
+  }
+  {
+  type: DrawRegion
+  suffix: -top
+  }
+ ]
+}
+requirements: [
+  titanium/40
+  graphite/50
+  lead/75
+  copper/120
+]
+outputItem: sand/5
+category: production
+research: water-extractor

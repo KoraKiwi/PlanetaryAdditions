@@ -1,0 +1,23 @@
+type: Conduit
+health: 370
+leaks: false
+underBullets: true
+liquidPressure: 2.1
+liquidCapacity: 20
+requirements: [
+  metaglass/4
+  plastanium/2
+  silicon/5
+  surge-alloy/2
+]
+category: liquid
+research: {
+  parent: pulse-conduit
+  objectives: [
+    {
+    type: SectorComplete
+    preset: navalFortress
+    }
+  ]
+}
+researchCostMultiplier: 3

@@ -1,0 +1,12 @@
+type: SolarGenerator
+health: 50
+size: 1
+hasPower: true
+requirements: [
+  lead/15
+  silicon/10
+  surge-alloy/5
+]
+powerProduction: 0.25
+category: power
+research: solar-panel

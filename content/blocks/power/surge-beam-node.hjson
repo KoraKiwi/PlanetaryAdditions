@@ -1,0 +1,20 @@
+type: BeamNode
+health: 140
+armor: 1
+size: 1
+range: 12
+fogRadius: 1
+hasPower: true
+consumesPower: true
+outputsPower: true
+laserRange: 10
+consumes: {
+  powerBuffered: 1200
+}
+requirements: [
+  beryllium/4
+  tungsten/4
+  surge-alloy/2
+]
+category: power
+research: beam-tower

@@ -1,0 +1,23 @@
+type: BeamDrill
+health: 255
+tier: 5
+size: 2
+range: 7
+fogRadius: 3
+drillTime: 130
+consumes: {
+  power: 0.25
+  liquid: {
+      liquid: hydrogen
+      amount: 0.0016666666666667
+  }
+}
+requirements: [
+  beryllium/40
+  thorium/20
+  silicon/30
+  oxide/25
+]
+liquidBoostIntensity: 2.5
+category: production
+research: large-plasma-bore

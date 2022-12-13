@@ -1,0 +1,56 @@
+type: ConsumeGenerator
+health: 240
+size: 3
+hasPower: true
+hasLiquids: true
+itemDuration: 60
+itemCapacity: 20
+generateEffect: generatespark
+consumes: {
+  liquids: {
+    liquids: [
+      water/0.25
+    ]
+   }
+  items: [
+    coal/1
+  ]
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -base
+  }
+  {
+  type: DrawWarmupRegion
+  suffix: -top
+  }
+  {
+  type: DrawBlurSpin
+  suffix: -rotator
+  rotateSpeed: 9
+  blurTresh: 0.01
+  }
+  {
+  type: DrawRegion
+  suffix: -cap
+  }
+  {
+  type: DrawLiquidRegion
+  suffix: -liquid
+  drawLiquid: water
+  }
+ ]
+}
+requirements: [
+  copper/80
+  lead/90
+  titanium/40
+  graphite/50	
+  silicon/60
+]
+powerProduction: 14
+category: power
+research: steam-generator

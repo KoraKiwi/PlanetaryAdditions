@@ -1,0 +1,15 @@
+type: SolarGenerator
+health: 270
+size: 4
+hasPower: true
+requirements: [
+  beryllium/150
+  tungsten/50
+  oxide/70
+  graphite/90
+  thorium/40
+  silicon/90
+]
+powerProduction: 2
+category: power
+research: beryllium-solar-panel

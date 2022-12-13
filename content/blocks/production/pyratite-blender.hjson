@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Pyro Mixer
+description: Very efficiently mixes coal, lead and sand into huge amounts of pure pyratite.
+health: 340
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 80
+itemCapacity: 30
+consumes: {
+  power: 1.25
+  items: [
+    coal/8
+    lead/12
+    sand/12
+    ]
+}
+requirements: [
+  copper/120
+  lead/75
+  plastanium/65
+  silicon/40
+]
+category: crafting
+research: pyratite-mixer
+outputItem: pyratite/10

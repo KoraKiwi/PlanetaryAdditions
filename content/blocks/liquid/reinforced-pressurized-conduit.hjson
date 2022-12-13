@@ -1,0 +1,15 @@
+type: ArmoredConduit
+health: 370
+leaks: false
+underBullets: true
+liquidPressure: 2.3
+liquidCapacity: 20
+requirements: [
+  beryllium/4
+  tungsten/3
+  oxide/2
+  silicon/5
+]
+category: liquid
+research: reinforced-conduit
+researchCostMultiplier: 3

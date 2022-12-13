@@ -1,0 +1,22 @@
+type: BeamNode
+scaledHealth: 95
+armor: 1
+size: 3
+range: 27
+fogRadius: 1
+hasPower: true
+consumesPower: true
+outputsPower: true
+laserRange: 10
+consumes: {
+  powerBuffered: 45000
+}
+requirements: [
+  beryllium/25
+  tungsten/15
+  oxide/15
+  silicon/15
+  surge-alloy/10
+]
+category: power
+research: surge-beam-node

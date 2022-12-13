@@ -1,0 +1,12 @@
+type: StorageBlock
+name: Silo
+description: Stores a very large amount of items of each type. Expands storage when placed next to a core. Contents can be retrieved with an unloader.
+scaledHealth: 65
+size: 4	
+itemCapacity: 1750
+requirements: [
+  plastanium/250
+  thorium/125
+]
+category: effect
+research: vault

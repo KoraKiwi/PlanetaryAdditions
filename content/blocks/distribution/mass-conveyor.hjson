@@ -1,0 +1,12 @@
+type: StackConveyor
+health: 100
+itemCapacity: 50
+speed: 0.15
+requirements: [
+  plastanium/2
+  surge-alloy/2
+  phase-fabric/1
+  silicon/4
+]
+category: distribution
+research: plastanium-conveyor

@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Graphite Batch Press
+description: Efficiently compresses large amounts of coal into graphite using blast compound. Requires water as coolant.
+health: 580
+size: 4	
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+itemCapacity: 20
+liquidCapacity: 24
+craftEffect: pulverizeMedium
+consumes: {
+  power: 2.5
+  items: [
+    coal/10
+    blast-compound/1
+    ]
+  liquids: [
+    water/0.2
+    ]
+}
+requirements: [
+  lead/300
+  graphite/170
+  thorium/100
+  silicon/125
+]
+category: crafting
+research: multi-press
+outputItem: graphite/10

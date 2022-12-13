@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Plastanium Blast Compressor
+description: Efficiently produces plastanium from oil, titanium and blast compound.
+health: 640
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+itemCapacity: 20
+liquidCapacity: 240
+craftEffect: formsmoke
+updateEffect: plasticburn
+consumes: {
+  power: 5
+  items: [
+    titanium/8
+    blast-compound/1
+    ]
+  liquids: [
+    oil/2
+    ]
+}
+requirements: [
+  copper/180
+  lead/60
+  graphite/75
+  plastanium/40
+  silicon/125
+]
+category: crafting
+research: plastanium-compressor
+idleSound: smelter
+idleSoundVolume: 0.07
+outputItem: plastanium/8

@@ -1,0 +1,49 @@
+type: GenericCrafter
+name: Cryo-Blender
+description: Mixes large amounts of water and fine titanium power to produce cryofluid.
+health: 340
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 120
+itemCapacity: 18
+liquidCapacity: 60
+consumes: {
+  power: 2
+  items: [
+    titanium/3
+    ]
+  liquids: [
+    water/0.5
+    ]
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: water
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: cryofluid
+  }
+  {
+  type: DrawRegion
+  }
+ ]
+}
+requirements: [
+  lead/135
+  titanium/120
+  plastanium/70
+  silicon/90
+]
+category: crafting
+research: cryofluid-mixer
+outputLiquid: cryofluid/0.5

@@ -1,0 +1,19 @@
+type: LaunchPad
+buildVisibility: campaignOnly
+health: 360
+size: 5
+launchTime: 300
+itemCapacity: 200
+consumes: {
+  power: 8
+}
+requirements: [
+  copper/600
+  lead/350
+  plastanium/200
+  graphite/180
+  silicon/250
+  surge-alloy/125
+]
+category: effect
+research: launch-pad

@@ -1,0 +1,44 @@
+type: GenericCrafter
+health: 760
+size: 4
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 90
+itemCapacity: 24
+liquidCapacity: 240
+consumes: {
+  power: 5
+  items: [
+    copper/12
+    lead/16
+    titanium/8
+    thorium/3
+    silicon/12
+    ]
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawCrucibleFlame
+  }
+  {
+  type: DrawRegion
+  }
+ ]
+}
+requirements: [
+  lead/135
+  thorium/120
+  graphite/60
+  surge-alloy/50
+  silicon/135
+]
+category: crafting
+research: surge-smelter
+outputItem: surge-alloy/6

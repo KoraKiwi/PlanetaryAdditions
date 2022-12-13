@@ -1,0 +1,15 @@
+type: PowerNode
+health: 50
+size: 1
+hasPower: true
+maxNodes: 15
+laserRange: 10
+consumes: {
+  powerBuffered: 2000
+}
+requirements: [
+  copper/3
+  surge-alloy/1
+]
+category: power
+research: power-node-large

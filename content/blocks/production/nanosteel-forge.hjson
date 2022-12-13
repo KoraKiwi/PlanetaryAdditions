@@ -1,0 +1,39 @@
+type: GenericCrafter
+health: 760
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 120
+itemCapacity: 10
+consumes: {
+  power: 6
+  items: [
+    silicon/3
+    surge-alloy/1
+    plastanium/1
+    ]
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawCrucibleFlame
+  }
+  {
+  type: DrawRegion
+  }
+ ]
+}
+requirements: [
+  lead/180
+  surge-alloy/120
+  plastanium/90
+  silicon/140
+]
+category: crafting
+research: surge-smelter
+outputItem: nanosteel/1

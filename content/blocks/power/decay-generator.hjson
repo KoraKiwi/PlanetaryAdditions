@@ -1,0 +1,21 @@
+type: ConsumeGenerator
+health: 350
+size: 3
+hasPower: true
+hasItems: true
+itemDuration: 840
+consumes: {
+  items: [
+    thorium/1
+  ]
+}
+requirements: [
+  lead/170
+  thorium/65
+  silicon/90
+  plastanium/90
+  phase-fabric/40
+]
+powerProduction: 10
+category: power
+research: rtg-generator

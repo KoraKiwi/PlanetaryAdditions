@@ -1,0 +1,40 @@
+type: GenericCrafter
+health: 1000
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 120
+itemCapacity: 12
+consumes: {
+  power: 6
+  items: [
+    silicon/3
+    carbide/1
+    beryllium/1
+    ]
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawCrucibleFlame
+  }
+  {
+  type: DrawRegion
+  }
+ ]
+}
+requirements: [
+  graphite/70
+  tungsten/110
+  thorium/50
+  oxide/30
+  silicon/80
+]
+category: crafting
+research: electric-heater
+outputItem: nanosteel/1

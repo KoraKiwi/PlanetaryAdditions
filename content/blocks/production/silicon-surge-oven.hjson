@@ -1,0 +1,41 @@
+type: GenericCrafter
+health: 1225
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 50
+itemCapacity: 50
+fogRadius: 3
+drawer: {
+   type: DrawMulti
+     drawers: [
+     {
+     type: DrawRegion
+     suffix: -bottom
+     }
+     {
+     type: DrawArcSmelt
+     }
+     {
+     type: DrawDefault
+     }
+   ]
+ },
+consumes: {
+  power: 15
+  items: [
+    graphite/1
+    sand/12
+    ]
+}
+requirements: [
+  graphite/140
+  beryllium/105
+  oxide/25
+  silicon/80
+]
+category: crafting
+research: silicon-arc-furnace
+idleSound: smelter
+idleSoundVolume: 0.24
+outputItem: silicon/12

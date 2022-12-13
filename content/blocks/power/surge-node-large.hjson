@@ -1,0 +1,16 @@
+type: PowerNode
+health: 200
+size: 2
+hasPower: true
+maxNodes: 20
+laserRange: 20
+consumes: {
+  powerBuffered: 10000
+}
+requirements: [
+  titanium/10
+  silicon/5
+  surge-alloy/5
+]
+category: power
+research: surge-node

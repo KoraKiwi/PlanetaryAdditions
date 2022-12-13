@@ -1,0 +1,30 @@
+type: Fracker
+health: 640
+size: 4
+pumpAmount: 0.55
+updateEffect: pulverize
+updateEffectChance: 0.15
+liquidCapacity: 66
+itemUseTime: 60
+consumes: {
+  power: 4.5
+  items: [
+    sand/2
+  ]
+  liquids: [
+    water/0.5
+  ]
+}
+requirements: [
+  copper/220
+  lead/175
+  graphite/240
+  plastanium/50
+  thorium/200
+  silicon/160
+]
+baseEfficiency: 0.25
+attribute: oil
+result: oil
+category: production
+research: oil-extractor

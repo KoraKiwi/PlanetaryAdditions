@@ -1,0 +1,19 @@
+type: MendProjector
+health: 130
+size: 3
+reload: 60
+range: 120
+healPercent: 8
+consumes: {
+  power: 6
+}
+requirements: [
+  copper/90
+  lead/180
+  plastanium/40
+  silicon/70
+  surge-alloy/40
+  phase-fabric/60
+]
+category: effect
+research: mend-projector

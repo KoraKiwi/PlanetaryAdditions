@@ -1,0 +1,11 @@
+type: UnitCargoUnloadPoint
+health: 240
+itemCapacity: 100
+size: 2
+requirements: [
+  titanium/60
+  graphite/40
+  silicon/30
+]
+category: distribution
+research: mobile-cargo-bay

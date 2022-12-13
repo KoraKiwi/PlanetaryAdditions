@@ -1,0 +1,13 @@
+type: SolarGenerator
+health: 540
+size: 3
+hasPower: true
+requirements: [
+  lead/95
+  silicon/100
+  surge-alloy/50
+  phase-fabric/25
+]
+powerProduction: 3.25
+category: power
+research: surge-panel

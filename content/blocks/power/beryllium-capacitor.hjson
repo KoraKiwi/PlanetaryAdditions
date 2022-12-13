@@ -1,0 +1,17 @@
+type: Battery
+health: 40
+size: 1
+hasPower: true
+consumesPower: true
+outputsPower: true
+consumes: {
+  powerBuffered: 6000
+}
+requirements: [
+  beryllium/25
+  graphite/15
+  silicon/20
+]
+emptyLightColor: 565666
+category: power
+research: beam-node

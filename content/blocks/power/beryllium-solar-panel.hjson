@@ -1,0 +1,13 @@
+type: SolarGenerator
+health: 120
+size: 2
+hasPower: true
+requirements: [
+  beryllium/50
+  oxide/20
+  graphite/40
+  silicon/90
+]
+powerProduction: 0.25
+category: power
+research: chemical-combustion-chamber

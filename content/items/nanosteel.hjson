@@ -1,0 +1,6 @@
+type: material
+hardness: 4
+cost: 0.8
+alwaysUnlocked: false
+color: 6E7080
+research: surge-alloy

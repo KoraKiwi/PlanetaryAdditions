@@ -1,0 +1,21 @@
+type: Battery
+health: 700
+armor: 1
+size: 4
+hasPower: true
+consumesPower: true
+outputsPower: true
+consumes: {
+  powerBuffered: 150000
+}
+requirements: [
+  lead/160
+  plastanium/60
+  surge-alloy/70
+  silicon/90
+]
+explosionSound: largeExplosion
+explosionEffect: bigShockwave
+emptyLightColor: 565666
+category: power
+research: battery-large

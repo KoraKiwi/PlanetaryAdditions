@@ -1,0 +1,20 @@
+type: ShieldWall
+health: 4080
+armor: 20
+hasPower: true
+consumesPower: true
+conductivePower: true
+lightningChance: 0.4
+chanceDeflect: 15
+insulated: true
+absorbLasers: true
+consumes: {
+  power: 0.1
+}
+requirements: [
+  nanosteel/24
+  surge-alloy/12
+  phase-fabric/12
+]
+category: defense
+research: reinforced-surge-wall-large

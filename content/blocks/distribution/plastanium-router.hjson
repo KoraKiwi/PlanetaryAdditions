@@ -1,0 +1,10 @@
+type: StackRouter
+health: 90
+itemCapacity: 10
+speed: 0.1
+requirements: [
+  plastanium/4
+  silicon/2
+]
+category: distribution
+research: plastanium-conveyor

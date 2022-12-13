@@ -1,0 +1,18 @@
+type: Battery
+health: 580
+size: 3
+hasPower: true
+consumesPower: true
+outputsPower: true
+consumes: {
+  powerBuffered: 120000
+}
+requirements: [
+  tungsten/80
+  oxide/50
+  surge-alloy/40
+  silicon/60
+]
+emptyLightColor: 565666
+category: power
+research: beryllium-capacitor-large

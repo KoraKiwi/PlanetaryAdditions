@@ -1,0 +1,25 @@
+type: WallCrafter
+health: 315
+size: 2
+drillTime: 90
+fogRadius: 2
+consumes: {
+  power: 0.275
+  liquids: {
+    liquid: water
+    amount: 0.03
+    optional: true
+    booster: true
+  }
+}
+requirements: [
+  graphite/15
+  tungsten/20
+  beryllium/30
+]
+attribute: sand
+output: sand
+category: production
+research: cliff-crusher
+ambientSound: drill
+ambientSoundVolume: 0.08

@@ -1,0 +1,32 @@
+type: Drill
+health: 935
+tier: 6
+size: 4
+drillTime: 180
+itemCapacity: 30
+drawRim: true
+liquidCapacity: 60
+updateEffect: pulverizeRed
+updateEffectChance: 0.05
+drillEffect: mineHuge
+rotateSpeed: 7
+warmupSpeed: 0.01
+consumes: {
+  power: 3.5
+  liquid: {
+    liquid: water
+    amount: 0.15
+    booster: true
+    optional: true
+  }
+}
+liquidBoostIntensity: 1.8
+requirements: [
+  copper/135
+  titanium/65
+  thorium/90
+  surge-alloy/40
+  silicon/75
+]
+category: production
+research: blast-drill

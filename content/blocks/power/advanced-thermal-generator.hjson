@@ -1,0 +1,19 @@
+type: ThermalGenerator
+health: 280
+size: 3
+hasPower: true
+requirements: [
+  titanium/70
+  lead/110
+  metaglass/65
+  graphite/95
+  thorium/65
+  silicon/135
+]
+generateEffect: redgeneratespark
+effectChance: 0.02
+powerProduction: 3
+ambientSound: hum
+ambientSoundVolume: 0.1
+category: power
+research: thermal-generator

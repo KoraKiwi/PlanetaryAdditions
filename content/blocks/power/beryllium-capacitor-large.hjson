@@ -1,0 +1,18 @@
+type: Battery
+health: 225
+size: 2
+hasPower: true
+consumesPower: true
+outputsPower: true
+consumes: {
+  powerBuffered: 30000
+}
+requirements: [
+  beryllium/60
+  tungsten/30
+  oxide/10
+  silicon/50
+]
+emptyLightColor: 565666
+category: power
+research: beryllium-capacitor

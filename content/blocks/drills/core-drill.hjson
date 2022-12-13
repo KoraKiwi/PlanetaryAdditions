@@ -1,0 +1,28 @@
+type: Fracker
+name: Core Drill
+description: Extracts slag using large amounts of power and water.
+health: 870
+size: 3
+pumpAmount: 0.4
+rotateSpeed: 8
+liquidCapacity: 40
+itemUseTime: 60
+craftEffect: drillSteam
+consumes: {
+  power: 3
+  liquids: [
+    water/0.6
+  ]
+}
+requirements: [
+  metaglass/55
+  graphite/325
+  lead/160
+  copper/470
+  thorium/180
+  silicon/290
+]
+attribute: heat
+result: slag
+category: production
+research: oil-extractor

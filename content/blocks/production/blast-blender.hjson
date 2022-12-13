@@ -1,0 +1,22 @@
+type: GenericCrafter
+health: 340
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 80
+itemCapacity: 20
+consumes: {
+  power: 1
+  items: [
+    pyratite/10
+    spore-pod/10
+    ]
+}
+requirements: [
+  lead/80
+  plastanium/30
+  silicon/45
+]
+category: crafting
+research: blast-mixer
+outputItem: blast-compound/10

@@ -1,0 +1,14 @@
+type: LiquidRouter
+name: Reinforced Liquid Silo
+description: Stores a very large amount of liquid.
+health: 1240
+size: 4	
+solid: true
+liquidPadding: 2
+liquidCapacity: 4300
+requirements: [
+  beryllium/95
+  tungsten/70
+]
+category: liquid
+research: reinforced-liquid-tank

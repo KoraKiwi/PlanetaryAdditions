@@ -1,0 +1,32 @@
+type: HeatProducer
+health: 340
+size: 3
+hasPower: true
+heatOutput: 10
+rotateDraw: false
+regionRotated1: 1
+consumes: {
+  power: 5
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  }
+  {
+  type: DrawHeatOutput
+  }
+ ]
+}
+requirements: [
+  tungsten/60
+  oxide/50
+  silicon/45
+  carbide/15
+]
+category: crafting
+research: electric-heater
+researchCostMultiplier: 5
+ambientSound: hum
+ambientSoundVolume: 1.75

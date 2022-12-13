@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: Scorch Kiln
+description: Efficiently smelts sand and lead into metaglass using pyratite as fuel.
+health: 340
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+itemCapacity: 16
+craftEffect: smeltsmoke
+drawer: {
+   type: DrawMulti,
+     drawers: [
+     {
+     type: DrawDefault
+     },
+     {
+     type: DrawFlame,
+     flameColor: "ffc099"
+     }
+   ]
+ },
+consumes: {
+  power: 3
+  items: [
+    lead/8
+    sand/8
+    pyratite/1
+    ]
+}
+requirements: [
+  copper/180
+  lead/60
+  graphite/75
+  plastanium/40
+  silicon/125
+]
+category: crafting
+research: kiln
+idleSound: smelter
+idleSoundVolume: 0.07
+outputItem: metaglass/8

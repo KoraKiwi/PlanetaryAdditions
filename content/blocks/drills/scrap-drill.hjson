@@ -1,0 +1,18 @@
+type: Drill
+health: 80
+tier: 0
+size: 2
+drillTime: 300
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.025
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  scrap/12
+]
+category: production
+research: mechanical-drill

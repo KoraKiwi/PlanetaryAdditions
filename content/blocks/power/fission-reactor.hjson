@@ -1,0 +1,28 @@
+type: NuclearReactor
+health: 1300
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 45
+itemDuration: 360
+consumes: {
+  items: [
+    thorium/1
+  ]
+  liquids: [
+    cryofluid/0.06
+  ]
+}
+requirements: [
+  lead/450
+  metaglass/125
+  graphite/210
+  thorium/210
+  silicon/280
+]
+heating: 0.02
+explosionEffect: bigShockwave
+powerProduction: 27.5
+category: power
+research: thorium-reactor

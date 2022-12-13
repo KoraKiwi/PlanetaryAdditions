@@ -1,0 +1,42 @@
+type: HeatCrafter
+health: 1275
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 135
+itemCapacity: 30
+heatRequirement: 10
+consumes: {
+  power: 3
+  items: [
+    tungsten/6
+    graphite/8
+    ]
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawCrucibleFlame
+  }
+  {
+  type: DrawRegion
+  }
+  {
+  type: DrawHeatInput
+  }
+ ]
+}
+requirements: [
+  thorium/200
+  carbide/25
+  tungsten/150
+  oxide/80
+]
+category: crafting
+research: carbide-crucible
+outputItem: carbide/3
