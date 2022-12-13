@@ -18,7 +18,7 @@ consumes: {
     blast-compound/1
     ]
   liquids: [
-    oil/2
+    oil/1.75
     ]
 }
 requirements: [

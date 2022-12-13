@@ -1,0 +1,7 @@
+name: "planetaryadditions"
+displayName: "Planetary Additions"
+author: "KoraKiwi"
+subtitle: "Let's get industrializing!"
+description: "Adds new ways to destroy nature, mostly factories.\n\nThe sprites and code are subject to change.\n\nWill be mostly rewritten once i figure out how mindustry java works."
+version: "1.0"
+minGameVersion: "136"
