@@ -1,6 +1,6 @@
 # More ways to destroy nature, yay!
 A simple mindustry mod which adds new content, mostly factories along with things for distribution, pumping and storing liquids and items, and things for power.
-Don't expect much, i made this because i wanted new factories, also this is a "test" mod for me to see how things work before i make my main mod.
+Don't expect much, i made this because i wanted new factories, also this is a "test" mod for me to see how things work before i make my main mod, which will contain an entire new campaing on a new planet.
 # This mod adds...
   More important stuff on Serpulo:
 Graphite Batch Press = A more efficient model from the Graphite Press family, has a 1:1 conversion ratio. Crafting time is longer than the Multi-Press, but shorter than the Graphite Press
