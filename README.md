@@ -48,9 +48,9 @@ Don't expect much, i made this because i wanted new factories, also this is a "t
 
 `Carbon Infuser` = Produces carbide more efficiently.
 
-`Surge Charger` = More efficient version of the Surge Crucible.
+`Surge Charger` = (not yet implemented)More efficient version of the Surge Crucible.
 
-`Quantum Synthetizer` = Synthetizes more phase fabric at the cost of additional ozone.
+`Quantum Synthetizer` = (not yet implemented)Synthetizes more phase fabric at the cost of additional ozone.
 
 `Nanite Crucible` = Produces nanosteel from silicon, carbide and beryllium.
 
@@ -58,13 +58,13 @@ Don't expect much, i made this because i wanted new factories, also this is a "t
 
 `Surge Beam Nodes` = Beam Nodes with longer range, health and slightly more power storage.
 
-`Beryllium Solar Panels` = Erekir is very close to the sun, why not cover it in solar farms? Produce some energy from the sun, but are quite costly.
+`Beryllium Solar Panels` = Erekir is very close to the sun, why not cover it in solar farms? Produce some energy from the sun, but are quite costly. Only produce a small amount of power because normal solar technology would literally melt.
 
 `Fusion Reactor` = (may be implemented)Uses large amounts of hydrogen and heat to produce power.
 
-`Centrifugal Pump` = A more cost efficient liquid pump.
+`Centrifugal Pump` = A more cost efficient liquid pump. Pumps more liquids from a 4x4 zone than 4 normal pumps, but requires a 4x4 space and pumps less from smaller areas.
 
-`Reinforced Siloes` = Store very large amounts of items or liquids. Item siloes don't connect to the core.
+`Reinforced Siloes` = Store very large amounts of items or liquids. Erekir item siloes don't connect to the core.
 
 ### Other Important Stuff:
 
