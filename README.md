@@ -1,8 +1,8 @@
 # More ways to destroy nature, yay!
 A simple mindustry mod which adds new content, mostly factories along with things for distribution, pumping and storing liquids and items, and things for power.
 Don't expect much, i made this because i wanted new factories, also this is a "test" mod for me to see how things work before i make my main mod, which will contain an entire new campaign on a new planet.
-# This mod adds...
--=-=-=-=-`More important stuff on Serpulo:`-=-=-=-=-
+## This mod adds...
+### More important stuff on Serpulo:
   
 `Graphite Batch Press` = A more efficient model from the Graphite Press family, has a 1:1 conversion ratio. Crafting time is longer than the Multi-Press, but shorter than the Graphite Press
 
@@ -36,7 +36,7 @@ Don't expect much, i made this because i wanted new factories, also this is a "t
 
 `Siloes` = Store very large amounts of items or liquids.
 
--=-=-=-=-`More important stuff on Erekir:`-=-=-=-=-
+### More important stuff on Erekir:
 
 `Silicon Surge Oven` = A bigger and faster Arc Oven. Doesn't actually craft faster, but produces 3 times more.
 
@@ -66,7 +66,7 @@ Don't expect much, i made this because i wanted new factories, also this is a "t
 
 `Reinforced Siloes` = Store very large amounts of items or liquids. Item siloes don't connect to the core.
 
--=-=-=-=-`Other Important Stuff:`-=-=-=-=-
+### Other Important Stuff:
 
 `Nanosteel` = An "alloy" composed of impact resistant nanobots. They harden in response to physical trauma, you can't hurt them!
 (Disclaimer: You can.)
@@ -75,6 +75,6 @@ Don't expect much, i made this because i wanted new factories, also this is a "t
 
 `Testing Facility` = (may be implemented)A Malis testing facility for testing new technologies. Capturing will probably unlock more important erekir buildings.
 
-# Other Things
+## Other Things
 
 New updates will probably be only balancing or tweaks, aside from the one that will rewrite the code
