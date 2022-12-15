@@ -5,13 +5,13 @@ hasPower: true
 hasItems: true
 hasLiquids: true
 craftTime: 90
-itemCapacity: 24
+itemCapacity: 30
 consumes: {
   power: 5
   items: [
-    copper/12
-    lead/16
-    titanium/8
+    copper/14
+    lead/18
+    titanium/10
     thorium/3
     silicon/12
     ]
@@ -40,4 +40,4 @@ requirements: [
 ]
 category: crafting
 research: surge-smelter
-outputItem: surge-alloy/6
+outputItem: surge-alloy/8
