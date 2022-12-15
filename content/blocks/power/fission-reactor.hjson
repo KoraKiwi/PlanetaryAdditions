@@ -11,7 +11,7 @@ consumes: {
     thorium/1
   ]
   liquids: [
-    cryofluid/0.06
+    cryofluid/0.08
   ]
 }
 requirements: [
@@ -21,8 +21,8 @@ requirements: [
   thorium/210
   silicon/280
 ]
-heating: 0.02
+heating: 0.03
 explosionEffect: bigShockwave
-powerProduction: 27.5
+powerProduction: 28
 category: power
 research: thorium-reactor
