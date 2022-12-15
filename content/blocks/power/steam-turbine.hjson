@@ -1,15 +1,15 @@
 type: ConsumeGenerator
-health: 240
+health: 245
 size: 3
 hasPower: true
 hasLiquids: true
-itemDuration: 60
-itemCapacity: 20
+itemDuration: 90
+itemCapacity: 10
 generateEffect: generatespark
 consumes: {
   liquids: {
     liquids: [
-      water/0.25
+      water/0.2
     ]
    }
   items: [
@@ -51,6 +51,6 @@ requirements: [
   graphite/50	
   silicon/60
 ]
-powerProduction: 14
+powerProduction: 16
 category: power
 research: steam-generator
