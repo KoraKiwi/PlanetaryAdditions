@@ -6,6 +6,7 @@ hasLiquids: true
 itemDuration: 90
 itemCapacity: 10
 generateEffect: generatespark
+effectChance: 0.8
 consumes: {
   liquids: {
     liquids: [

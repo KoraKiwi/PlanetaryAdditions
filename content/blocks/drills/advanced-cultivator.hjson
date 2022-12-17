@@ -43,5 +43,13 @@ drawers: [
 attribute: spores
 maxBoost: 2
 category: production
-research: cultivator
+research: {
+  parent: cultivator
+  objectives: [
+    {
+    type: OnSector
+    preset: overgrowth
+    }
+  ]
+}
 outputItem: spore-pod/3
