@@ -22,6 +22,10 @@ type: DrawMulti
 drawers: [
   {
   type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawRegion
   suffix: -base
   }
   {
