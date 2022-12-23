@@ -12,7 +12,7 @@ Don't expect much, i made this because i wanted new factories, also this is a "t
 
 `Plastanium Refiner` = Produces plastanium 8 times faster, but requires additional blast compound to compress it.
 
-`Quantum Weaver` = (not yet implemented)Weaves phase fabric x times faster than the standard model, but requires additional stabilizer in the form of cryofluid.
+`Quantum Weaver` = Weaves phase fabric 5 times faster than the standard model, but requires additional stabilizer in the form of cryofluid, you know, so that it doesn't create a hole in the fabric of reality.
 
 `Alloy Crucible` = Creates more surge alloy than the normal surge smelter, but requires additional thorium.
 
