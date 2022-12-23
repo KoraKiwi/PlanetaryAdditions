@@ -1,0 +1,47 @@
+type: GenericCrafter
+health: 340
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 120
+itemCapacity: 80
+consumes: {
+  power: 2
+  items: [
+    thorium/10
+    sand/40
+    ]
+  liquids: [
+    cryofluid/0.2
+    ]
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: water
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: cryofluid
+  }
+  {
+  type: DrawRegion
+  }
+ ]
+}
+requirements: [
+  lead/180
+  thorium/125
+  plastanium/70
+  silicon/190
+]
+category: crafting
+research: phase-weaver
+outputItem: phase-fabric/5

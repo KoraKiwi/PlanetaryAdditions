@@ -10,7 +10,7 @@ effectChance: 0.8
 consumes: {
   liquids: {
     liquids: [
-      water/0.2
+      water/0.3
     ]
    }
   items: [
@@ -56,6 +56,6 @@ requirements: [
   graphite/50	
   silicon/60
 ]
-powerProduction: 16
+powerProduction: 18
 category: power
 research: steam-generator

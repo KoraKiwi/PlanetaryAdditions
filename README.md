@@ -68,7 +68,7 @@ Don't expect much, i made this because i wanted new factories, also this is a "t
 
 ### Other Important Stuff:
 
-`Nanosteel` = An "alloy" composed of impact resistant nanobots. They harden in response to physical trauma, you can't hurt them!
+`Nanosteel` = An "alloy" composed of impact resistant nanobots. They harden in response to physical trauma, you can't hurt them, sharded!
 (Disclaimer: You can.)
 
 `Nanosteel Walls` = The ultimate wall. Has high armor, health, reflects bullets, blocks piercing bullets and lasers, creates arcs, and has an inbuilt shield projector.

@@ -3,6 +3,8 @@ health: 565
 tier: 0
 size: 4
 drillTime: 150
+itemCapacity: 50
+rotateSpeed: 6
 consumes: {
   power: 0.8
   liquid: {
@@ -13,11 +15,11 @@ consumes: {
   }
 }
 requirements: [
-  copper/90
-  titanium/30
-  lead/145
+  copper/100
+  plastanium/35
+  lead/185
   silicon/50
 ]
-liquidBoostIntensity: 1.5
+liquidBoostIntensity: 1.4
 category: production
 research: scrap-drill
