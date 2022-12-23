@@ -26,6 +26,8 @@ Don't expect much, i made this because i wanted new factories, also this is a "t
 
 `Omnidrill` = Ever played v3? This is pretty much it. It can drill every ore, and does it with maximum efficiency, which can be even further boosted with water. Destruction of nature guaranteed.
 
+`Excavator` = Drills sand or scrap extremely fast, like seriously, 2 of these should be enough for 5 silicon factories.
+
 `Fission Reactor` = Larger and more efficient thorium reactor.
 
 `Surge Nodes` = Power Nodes but with extra range, connections, and a small, inbuilt battery.
