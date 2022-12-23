@@ -24,12 +24,7 @@ drawers: [
   suffix: -bottom
   }
   {
-  type: DrawLiquidTile
-  drawLiquid: water
-  }
-  {
-  type: DrawLiquidTile
-  drawLiquid: cryofluid
+  type: DrawWeave
   }
   {
   type: DrawRegion
