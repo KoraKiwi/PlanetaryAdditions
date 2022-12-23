@@ -1,5 +1,5 @@
 type: GenericCrafter
-health: 340
+health: 270
 size: 3
 hasPower: true
 hasItems: true
@@ -7,7 +7,7 @@ hasLiquids: true
 craftTime: 120
 itemCapacity: 80
 consumes: {
-  power: 2
+  power: 10
   items: [
     thorium/10
     sand/40
@@ -44,4 +44,6 @@ requirements: [
 ]
 category: crafting
 research: phase-weaver
+ambientSound: techloop
+ambientSoundVolume: 0.05
 outputItem: phase-fabric/5
