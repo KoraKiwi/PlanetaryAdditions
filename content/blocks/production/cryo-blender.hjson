@@ -30,6 +30,11 @@ drawers: [
   drawLiquid: water
   }
   {
+  type: DrawRegion
+  suffix: -blade
+  rotateSpeed: -9
+  }
+  {
   type: DrawLiquidTile
   drawLiquid: cryofluid
   }
