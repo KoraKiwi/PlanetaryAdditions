@@ -1,3 +1,4 @@
+{
 type: ConsumeGenerator
 health: 350
 size: 3
@@ -19,3 +20,4 @@ requirements: [
 powerProduction: 10
 category: power
 research: rtg-generator
+}
