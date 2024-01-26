@@ -2,6 +2,6 @@ name: "planetaryadditions"
 displayName: "Planetary Additions"
 author: "KoraKiwi"
 subtitle: "Let's get industrializing!"
-description: "Adds new ways to destroy nature, mostly factories.
+description: "Adds new ways to destroy nature, mostly factories."
 version: "1.2.0"
 minGameVersion: "136"
