@@ -1,0 +1,43 @@
+{
+ type: ItemTurret,
+ size: 2,
+ health: 380,
+ reload: 60,
+ xRand: 0,
+ shots: 1,
+ maxAmmo: 9,
+ ammoPerShot: 3,
+ range: 280,
+ targetAir: false,
+ collideAir: false,
+ shootSound: artillery,
+ inaccuracy: 0.25,
+    rotateSpeed: 4,
+    ammoTypes: {
+        graphite: {
+            type: ArtilleryBulletType,
+            damage: 5,
+            splashDamage: 110,
+            splashDamageRadius: 32,
+            height: 20,
+            width: 12,
+            speed: 5,
+            drag: 0.01,
+            lifetime: 65,
+            ammoMultiplier: 1,
+            buildingDamageMultiplier: 0,
+            smokeEffect: shootBigSmoke,
+            hitEffect: shockwave,
+            despawnEffect: shootBigSmoke2,
+            trailWidth: 1.2,
+            trailLength: 8,
+        }
+    },
+    requirements: [
+     graphite/70
+     copper/90
+     lead/60
+    ]
+    category: turret,
+    research: hail
+}
