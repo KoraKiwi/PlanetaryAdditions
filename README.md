@@ -76,7 +76,3 @@ Don't expect much, i made this because i wanted new factories, also this is a "t
 `Nanosteel Walls` = The ultimate wall. Has high armor, health, reflects bullets, blocks piercing bullets and lasers, creates arcs, and has an inbuilt shield projector.
 
 `Testing Facility` = (may be implemented)A Malis testing facility for testing new technologies. Capturing will probably unlock more important erekir buildings.
-
-## Other Things
-
-New updates will probably be only balancing or tweaks, aside from the one that will rewrite the code
