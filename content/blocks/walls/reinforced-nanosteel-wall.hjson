@@ -15,6 +15,7 @@ requirements: [
   nanosteel/24
   surge-alloy/12
   phase-fabric/12
+  tungsten/6
 ]
 category: defense
 research: reinforced-surge-wall-large
