@@ -1,0 +1,22 @@
+{
+type: ForceProjector,
+health: 700,
+armor: 4,
+size: 5,
+shieldHealth: 2500,
+radius: 230,
+phaseRadiusBoost: 90,
+cooldownBrokenBase: 0.35,
+consumes: {
+  power: 12
+}
+requirements: [
+  titanium/340
+  plastanium/180
+  surge-alloy/80
+  silicon/250
+  lead/150
+]
+category: effect,
+research: force-projector
+}

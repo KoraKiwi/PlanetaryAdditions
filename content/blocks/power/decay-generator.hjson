@@ -10,6 +10,17 @@ consumes: {
     thorium/1
   ]
 }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+    }
+    {
+      type: DrawWarmupRegion
+    }
+  ]
+}
 requirements: [
   lead/170
   thorium/65

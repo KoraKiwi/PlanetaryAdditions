@@ -24,8 +24,9 @@ requirements: [
 ]
 heating: 0.03,
 explosionEffect: bigShockwave,
-powerProduction: 28,
-craftEffect: steam,
+powerProduction: 36,
+generateEffect: steam,
+effectChance: 0.5,
 category: power,
 research: thorium-reactor
 }
