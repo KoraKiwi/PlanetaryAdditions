@@ -1,0 +1,6 @@
+type: liquid
+gas: true
+temperature: 0.9
+alwaysUnlocked: false
+color: DBDBDB
+research: water
