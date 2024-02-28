@@ -4,7 +4,7 @@ size: 3
 hasPower: true
 hasLiquids: true
 generateEffect: generatespark
-effectChance: 0.2
+effectChance: 0.35
 consumes: {
   liquids: {
     liquids: [
@@ -22,8 +22,8 @@ drawers: [
   {
   type: DrawBlurSpin
   suffix: -rotator
-  rotateSpeed: 9
-  blurTresh: 0.01
+  rotateSpeed: 14
+  blurTresh: 0.02
   }
  ]
 }
