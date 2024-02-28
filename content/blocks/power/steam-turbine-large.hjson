@@ -1,0 +1,40 @@
+type: ConsumeGenerator
+health: 245
+size: 3
+hasPower: true
+hasLiquids: true
+generateEffect: generatespark
+effectChance: 0.2
+consumes: {
+  liquids: {
+    liquids: [
+      steam/1.5
+    ]
+  }
+}
+drawer: {
+type: DrawMulti
+drawers: [
+  {
+  type: DrawRegion
+  suffix: -base
+  }
+  {
+  type: DrawBlurSpin
+  suffix: -rotator
+  rotateSpeed: 9
+  blurTresh: 0.01
+  }
+ ]
+}
+requirements: [
+  copper/185
+  lead/130
+  titanium/140
+  graphite/140	
+  silicon/135
+]
+powerProduction: 15
+outputLiquid: water/0.15
+category: power
+research: steam-generator
